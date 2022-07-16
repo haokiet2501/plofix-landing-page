@@ -1,0 +1,49 @@
+.header {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
+  &__nav {
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    padding: 18px 24px;
+    &--logo {
+    }
+    &--item {
+      max-width: 1150px;
+      width: 100%;
+      ul {
+        display: flex;
+        padding: 10px 13px;
+        li {
+          max-width: 125px;
+          width: 100%;
+          a {
+            font-size: 14px;
+            font-weight: bold;
+            line-height: normal;
+            text-align: left;
+            color: #222;
+          }
+        }
+      }
+    }
+    &--user {
+      max-width: 350px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin: 0px 0 0 87px;
+    }
+  }
+  &__navtb {
+    display: none;
+  }
+  &__navmb {
+    display: none;
+  }
+}

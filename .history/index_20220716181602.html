@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__nav">
+        <div class="header__nav--logo">
+          <a href="#"
+            ><img src="img/logoHeader/logo.png" alt="Logo-header"
+          /></a>
+        </div>
+        <div class="header__nav--item pl-200">
+          <ul>
+            <li><a href="#">PATTERN</a></li>
+            <li><a class="pl-3" href="#">PRICING</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a class="pl-6" href="#">ULTRAFIT SHOP</a></li>
+          </ul>
+        </div>
+        <div class="header__nav--user">
+          <button class="button button-text more-btn-h1 c-w">
+            <a href="#">EDIT & PIOT</a>
+          </button>
+          <button class="button button-text more-btn-h2">
+            <a href="#">SELL PATTERN</a>
+          </button>
+          <a href="#"
+            ><img src="./img/icon_account.png" alt="icon-account"
+          /></a>
+        </div>
+      </div>
+      <div class="header__navtb">
+        <div class="header__nav--logo">
+          <a href="#"
+            ><img src="img/logoHeader/logo.png" alt="Logo-header"
+          /></a>
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li class="item">
+              <span class="material-symbols-outlined"> menu </span>
+              <ul class="submenu">
+                <li>Menu item</li>
+                <li>Menu item</li>
+                <li>Menu item</li>
+                <div class="header__nav--user">
+                  <button class="button button-text more-btn-h1 c-w">
+                    <a href="#">EDIT & PIOT</a>
+                  </button>
+                  <button class="button button-text more-btn-h2">
+                    <a href="#">SELL PATTERN</a>
+                  </button>
+                  <a href="#"
+                    ><img src="./img/icon_account.png" alt="icon-account"
+                  /></a>
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__navmb">
+        <div class="header__nav--logo">
+          <a href="#"
+            ><img src="img/logoHeader/logo.png" alt="Logo-header"
+          /></a>
+        </div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="#">PATTERN</a>
+          <a href="#">PRICING</a>
+          <a href="#">SUPPORT</a>
+          <a href="#">ULTRAFIT SHOP</a>
+        </div>
+
+        <span class="material-symbols-outlined" onclick="openNav()">
+          menu
+        </span>
+      </div>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="l-s1__container">
+          <h2 class="title pt-150">
+            Find Your Paint Protection Film Cutting File.
+          </h2>
+          <div class="l-s1__content mt-50">
+            <div class="l-s1__content--top">
+              <div class="l-s1__item">
+                <h4 class="l-s1__item--title">Location</h4>
+                <select class="custom-select">
+                  <option>Select Location</option>
+                  <option class="action">CANADA & USA</option>
+                  <option>EUROPE</option>
+                  <option>SOUTH KOREA</option>
+                </select>
+              </div>
+              <div class="l-s1__item">
+                <h4 class="l-s1__item--title">Year</h4>
+                <select class="custom-select">
+                  <option>Select Year</option>
+                  <option>2022</option>
+                  <option>2021</option>
+                  <option>2020</option>
+                  <option>2019</option>
+                  <option>2018</option>
+                  <option>2017</option>
+                </select>
+              </div>
+              <div class="l-s1__item">
+                <h4 class="l-s1__item--title">Make</h4>
+                <select class="custom-select">
+                  <option>Select Make</option>
+                  <option>CANADA & USA</option>
+                  <option>EUROPE</option>
+                  <option>SOUTH KOREA</option>
+                </select>
+              </div>
+              <div class="l-s1__item">
+                <h4 class="l-s1__item--title">Model</h4>
+                <select class="custom-select">
+                  <option>Select Model</option>
+                  <option>CANADA & USA</option>
+                  <option>EUROPE</option>
+                  <option>SOUTH KOREA</option>
+                </select>
+              </div>
+              <div class="l-s1__item">
+                <h4 class="l-s1__item--title">Sub-Model</h4>
+                <select class="custom-select">
+                  <option>Select SubModel</option>
+                  <option>CANADA & USA</option>
+                  <option>EUROPE</option>
+                  <option>SOUTH KOREA</option>
+                </select>
+              </div>
+              <div class="l-s1__item">
+                <h4 class="l-s1__item--title">Series</h4>
+                <select class="custom-select">
+                  <option>Select Series</option>
+                  <option>CANADA & USA</option>
+                  <option>EUROPE</option>
+                  <option>SOUTH KOREA</option>
+                </select>
+              </div>
+            </div>
+            <div class="l-s1__content--bottom">
+              <button class="button more-btn-s1-l">
+                <img src="img/icon_reset.png" alt="Reset" />&ensp;RESET
+              </button>
+              <button class="button more-btn-s1">
+                <a href="#">SEARCH</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section2">
+        <h2 class="title title-s2 pt-72">NEW PROTECTION FILM LIST</h2>
+        <div class="l-s2__container pt-30">
+          <div class="l-s2__product">
+            <img src="./img/bedge.png" alt="" />
+            <div class="item-top">Upload date : 2021. 12. 01</div>
+            <div class="item-icon">
+              <img src="./img/icon_bookmark_on.png" alt="" />
+            </div>
+            <div class="item-img"><img src="./img/img.png" alt="" /></div>
+            <div class="item-title">
+              CANADA & USA > 2021 > TOYOTA ><br />
+              CAMRY > XLE HYBRID
+            </div>
+            <div class="item-text">OUT FRONT > BUMPER</div>
+            <div class="item-comment">
+              <div class="item-left">
+                <div class="item-star-active">
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_off.png" alt="" />
+                </div>
+                <div class="item-star"></div>
+              </div>
+              <div class="item-right">
+                <div class="item-creadit">20 Credit</div>
+                <div class="item-download">60 downloads</div>
+              </div>
+            </div>
+            <div class="item-bottom">
+              <div class="item-bottom-left">
+                <div class="item-avatar">
+                  <img src="./img/img_profile.png" alt="" />
+                </div>
+                <div class="item-begin">By carlover</div>
+              </div>
+              <div class="item-bottom-right">
+                <div class="item-avatar">
+                  <img src="./img/icon_beginner.png" alt="" />
+                </div>
+                <div class="item-begin">Beginner</div>
+              </div>
+            </div>
+          </div>
+          <div class="l-s2__product pt-104 pt-63-mb">
+            <div class="item-top">Upload date : 2021. 11. 29</div>
+            <div class="item-img"><img src="./img/img.png" alt="" /></div>
+            <div class="item-title">
+              CANADA & USA > 2020 > GENESIS ><br />
+              G70 > ELITE
+            </div>
+            <div class="item-text">OUT FRONT > BUMPER</div>
+            <div class="item-comment">
+              <div class="item-left">
+                <div class="item-star-active">
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_off.png" alt="" />
+                  <img src="./img/icon_star_off.png" alt="" />
+                </div>
+                <div class="item-star"></div>
+              </div>
+              <div class="item-right">
+                <div class="item-creadit">18 Credit</div>
+                <div class="item-download">11 downloads</div>
+              </div>
+            </div>
+            <div class="item-bottom">
+              <div class="item-bottom-left">
+                <div class="item-avatar">
+                  <img src="./img/img_profile2.png" alt="" />
+                </div>
+                <div class="item-begin">By carve</div>
+              </div>
+              <div class="item-bottom-right">
+                <div class="item-avatar">
+                  <img src="./img/icon_expert.png" alt="" />
+                </div>
+                <div class="item-begin">Expert</div>
+              </div>
+            </div>
+          </div>
+          <div class="l-s2__product pt-104 pt-63-mb">
+            <div class="item-top">Upload date : 2021. 12. 01</div>
+            <div class="item-icon">
+              <img src="./img/icon_bookmark_on.png" alt="" />
+            </div>
+            <div class="item-img"><img src="./img/img.png" alt="" /></div>
+            <div class="item-title">
+              CANADA & USA > 2020 > CADILLAC ><br />
+              CT5 > PREMIUM LUXURY
+            </div>
+            <div class="item-text">OUT FRONT > BUMPER</div>
+            <div class="item-comment">
+              <div class="item-left">
+                <div class="item-star-active">
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_off.png" alt="" />
+                  <img src="./img/icon_star_off.png" alt="" />
+                </div>
+                <div class="item-star"></div>
+              </div>
+              <div class="item-right">
+                <div class="item-creadit">18 Credit</div>
+                <div class="item-download">11 downloads</div>
+              </div>
+            </div>
+            <div class="item-bottom">
+              <div class="item-bottom-left">
+                <div class="item-avatar">
+                  <img src="./img/img_profile3.png" alt="" />
+                </div>
+                <div class="item-begin">By filmking</div>
+              </div>
+              <div class="item-bottom-right">
+                <div class="item-avatar">
+                  <img src="./img/icon_master.png" alt="" />
+                </div>
+                <div class="item-begin">Master</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="l-s2__container pt-30">
+          <div class="l-s2__product pt-104 pt-63-mb">
+            <div class="item-top">Upload date : 2021. 11. 29</div>
+            <div class="item-icon">
+              <img src="./img/icon_bookmark_on.png" alt="" />
+            </div>
+            <div class="item-img"><img src="./img/img.png" alt="" /></div>
+            <div class="item-title">
+              CANADA & USA > 2020 > CHRYSLER ><br />
+              PACIFICA > TOURING
+            </div>
+            <div class="item-text">OUT FRONT > BUMPER</div>
+            <div class="item-comment">
+              <div class="item-left">
+                <div class="item-star-active">
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_off.png" alt="" />
+                </div>
+              </div>
+              <div class="item-right">
+                <div class="item-creadit">18 Credit</div>
+                <div class="item-download">11 downloads</div>
+              </div>
+            </div>
+            <div class="item-bottom">
+              <div class="item-bottom-left">
+                <div class="item-avatar">
+                  <img src="./img/img_profile4.png" alt="" />
+                </div>
+                <div class="item-begin">By benzz</div>
+              </div>
+              <div class="item-bottom-right">
+                <div class="item-avatar-sp">
+                  <img src="./img/icon_a.png" alt="" />
+                </div>
+                <div class="item-begin">Advanced</div>
+              </div>
+            </div>
+          </div>
+          <div class="l-s2__product pt-104 pt-63-mb">
+            <div class="item-top">Upload date : 2021. 11. 29</div>
+            <div class="item-img"><img src="./img/img.png" alt="" /></div>
+            <div class="item-icon">
+              <img src="./img/icon_bookmark_on.png" alt="" />
+            </div>
+            <div class="item-title">
+              EUROPE > 2020 > NISSAN > <br />
+              ARMADA > PLATINUM RESERVE
+            </div>
+            <div class="item-text">OUT FRONT > BUMPER</div>
+            <div class="item-comment">
+              <div class="item-left">
+                <div class="item-star-active">
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_off.png" alt="" />
+                </div>
+                <div class="item-star"></div>
+              </div>
+              <div class="item-right">
+                <div class="item-creadit">45 Credit</div>
+                <div class="item-download">97 downloads</div>
+              </div>
+            </div>
+            <div class="item-bottom">
+              <div class="item-bottom-left">
+                <div class="item-avatar">
+                  <img src="./img/img_profile5.png" alt="" />
+                </div>
+                <div class="item-begin">By bmwind</div>
+              </div>
+              <div class="item-bottom-right">
+                <div class="item-avatar-sp">
+                  <img src="./img/icon_a.png" alt="" />
+                </div>
+                <div class="item-begin">Advanced</div>
+              </div>
+            </div>
+          </div>
+          <div class="l-s2__product">
+            <img src="./img/bedge.png" alt="" />
+            <div class="item-top">Upload date : 2021. 12. 01</div>
+            <div class="item-icon">
+              <img src="./img/icon_bookmark_on.png" alt="" />
+            </div>
+            <div class="item-img"><img src="./img/img.png" alt="" /></div>
+            <div class="item-title">
+              CANADA & USA > 2020 > Mercedes BENZ ><br />
+              GLC COUPE > AMG GLC 43
+            </div>
+            <div class="item-text">OUT FRONT > BUMPER</div>
+            <div class="item-comment">
+              <div class="item-left">
+                <div class="item-star-active">
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_on.png" alt="" />
+                  <img src="./img/icon_star_off.png" alt="" />
+                </div>
+                <div class="item-star"></div>
+              </div>
+              <div class="item-right">
+                <div class="item-creadit">50 Credit</div>
+                <div class="item-download">201 downloads</div>
+              </div>
+            </div>
+            <div class="item-bottom">
+              <div class="item-bottom-left">
+                <div class="item-avatar">
+                  <img src="./img/img_profile6.png" alt="" />
+                </div>
+                <div class="item-begin">By youue</div>
+              </div>
+              <div class="item-bottom-right">
+                <div class="item-avatar">
+                  <img src="./img/icon_beginner.png" alt="" />
+                </div>
+                <div class="item-begin">Beginner</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button--center">
+          <button class="button more-btn-s2 button-center">
+            <a href="#">LEAD MORE</a>
+          </button>
+        </div>
+      </section>
+      <section class="section3">
+        <div class="l-s3__bg"></div>
+        <div class="l-s3__container">
+          <div class="l-s3__container--product">
+            <div class="l-s3__container--product-left">
+              <img src="./img/img_left.png" alt="" />
+            </div>
+            <div class="l-s3__container--product-right">
+              <div class="product-right-item">
+                <div class="product-right-icon"></div>
+                <div class="product-right-title">
+                  The largest/first pattern marketplace for automotive film
+                  professionals in the world.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="l-s3__container--product-sp">
+            <div class="l-s3__container--product-sp-left">
+              <div class="product-right-item">
+                <div class="product-right-icon"></div>
+                <div class="product-right-title">
+                  Search for thousands of automotive patterns, customize to fit
+                  your needs, and plot online any film regardless of brand!
+                </div>
+                <div class="product-right-text">
+                  Donec vitae porta sapien, nec dictum sapien. Vivamus interdum
+                  dolor a ullamcorper congue. Curabitur non eleifend enim.
+                </div>
+              </div>
+            </div>
+            <div class="l-s3__container--product-sp-right">
+              <img src="./img/img_right.png" alt="" />
+            </div>
+          </div>
+          <div class="l-s3__container--product-3">
+            <div class="l-s3__container--product-3-left">
+              <img src="./img/img_left3.png" alt="" />
+            </div>
+            <div class="l-s3__container--product-3-right">
+              <div class="product-right-item">
+                <div class="product-right-icon">
+                  <img src="./img/icon_money.png" alt="" />
+                </div>
+                <div class="product-right-title">
+                  Easily upload your own patterns and start making money now!
+                </div>
+                <div class="product-right-text">
+                  Donec vitae porta sapien, nec dictum sapien. Vivamus interdum
+                  dolor a ullamcorper congue. Curabitur non eleifend enim.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section4">
+        <div class="l-s4__container">
+          <div class="title fs-34">CREDIT PACKS</div>
+          <div class="title-span">
+            Choose credit plan designed to meet your needs.
+          </div>
+
+          <div class="l-s4__product">
+            <div class="l-s4__product--item">
+              <div class="l-s4__product--item-top">STANDARD</div>
+              <div class="l-s4__product--item-center">$50</div>
+              <div class="l-s4-note">*VAT not included in prices.</div>
+              <div class="l-s4__product--item-bottom">
+                <div class="s4-item-top">50 Credit</div>
+                <div class="s4-item-center">Total Creadit</div>
+                <div class="s4-item-bottom">50 Credit</div>
+              </div>
+            </div>
+            <div class="l-s4__product--item">
+              <div class="l-s4__product--item-top">PLUS</div>
+              <div class="l-s4__product--item-center">$100</div>
+              <div class="l-s4-note">*VAT not included in prices.</div>
+              <div class="l-s4__product--item-bottom">
+                <div class="s4-item-top">100 Credit + 5 Credit</div>
+                <div class="s4-item-center">Total Creadit</div>
+                <div class="s4-item-bottom">105 Credit</div>
+              </div>
+            </div>
+            <div class="l-s4__product--item">
+              <div class="l-s4__product--item-top">PREMIUM</div>
+              <div class="l-s4__product--item-center">$250</div>
+              <div class="l-s4-note">*VAT not included in prices.</div>
+              <div class="l-s4__product--item-bottom">
+                <div class="s4-item-top">250 Credit + 20 Credit</div>
+                <div class="s4-item-center">Total Credit</div>
+                <div class="s4-item-bottom">270 Credit</div>
+              </div>
+            </div>
+            <div class="l-s4__product--item">
+              <div class="l-s4__product--item-top">GOLD</div>
+              <div class="l-s4__product--item-center">$1000</div>
+              <div class="l-s4-note">*VAT not included in prices.</div>
+              <div class="l-s4__product--item-bottom">
+                <div class="s4-item-top">1000 Credit + 130 Credit</div>
+                <div class="s4-item-center">Total Credit</div>
+                <div class="s4-item-bottom">1130 Credit</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__nav">
+        <div class="footer__nav--logo">
+          <a href="#"
+            ><img src="img/logoHeader/logo.png" alt="Logo-footer"
+          /></a>
+        </div>
+        <div class="footer__nav--item pl-200">
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a class="pl-3" href="#">Our Product</a></li>
+            <li><a class="pl-26" href="#">Contact Us</a></li>
+            <li><a class="pl-41" href="#">Shop</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav--icon">
+          <div class="footer__nav--icon-ins">
+            <a href=""><img src="./img/instagram.png" alt="" /></a>
+          </div>
+          <div class="footer__nav--icon-you">
+            <a href=""><img src="./img/youtube.png" alt="" /></a>
+          </div>
+          <div class="footer__nav--icon-face">
+            <a href=""><img src="./img/facebook-f.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__email">
+        <div class="footer__email--left">
+          ©2021 INOGROW. All Rights Reserved.
+        </div>
+        <div class="footer__email--right">
+          <img src="./img/icon_email.png" alt="" />
+          E-mail: info@ultrafitprotection.com
+        </div>
+      </div>
+    </footer>
+    <script src=""></script>
+    <script src="app.js"></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>

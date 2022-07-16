@@ -1,0 +1,97 @@
+.footer {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  &__nav {
+    display: flex;
+    padding: 19px 24px 0;
+    &--logo {
+    }
+    &--item {
+      max-width: 1420px;
+      width: 100%;
+      ul {
+        display: flex;
+        padding: 10px 13px;
+        li {
+          max-width: 104px;
+          width: 100%;
+          a {
+            font-size: 12px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #222;
+          }
+        }
+      }
+    }
+    &--icon {
+      display: flex;
+      max-width: 129px;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      &-ins {
+        width: 36px;
+        height: 36px;
+        background-color: #c5c5c5;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &-you {
+        width: 36px;
+        height: 36px;
+        background-color: #c5c5c5;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &-face {
+        width: 36px;
+        height: 36px;
+        background-color: #c5c5c5;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  &__email {
+    padding: 37px 21px 20px 24px;
+    display: flex;
+    justify-content: space-between;
+    &--left {
+      font-size: 12px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #222;
+    }
+    &--right {
+      font-size: 12px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #222;
+      display: flex;
+      align-items: center;
+      img {
+        margin: 0 7px 0;
+      }
+    }
+  }
+}
